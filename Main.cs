@@ -42,7 +42,6 @@ namespace XLSMapPlugin
                 JsonConvert.DeserializeObject<Main>(File.ReadAllText(Path.Combine(pluginInfo.path, "Config.json")));
             }
             pluginInfo.OnToggle = OnToggle;
-            pluginInfo.PlayerCommand = OnPlayerCommand;
         }
 
         private static void OnToggle(bool enabled)
@@ -59,10 +58,6 @@ namespace XLSMapPlugin
                 }
                 SetNextMapHash();
             }
-        }
-
-        private static void OnPlayerCommand(string message, Player player)
-        {
         }
 
         private static void SetTimer()
