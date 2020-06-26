@@ -1,0 +1,7 @@
+{
+  "Name": "XLSMapPlugin",
+  "AssemblyName": "XLSMapPlugin.dll",
+  "StartupMethod": "XLSMapPlugin.Main:Load",
+  "ServerVersion": "0.9.1",
+  "DependencyZIP": ""
+}
